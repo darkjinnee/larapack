@@ -14,3 +14,10 @@ yarn-error.log
 
 # PhpStorm
 .idea/
+
+# Docker (nginx)
+/public/access-nginx.log
+/public/error-nginx.log
+
+# Supervisor
+/public/worker.log
