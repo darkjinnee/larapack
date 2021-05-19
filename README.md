@@ -51,6 +51,9 @@ $ php artisan migrate:fresh --seed
 $ su dev
 ```
 
+### Package management
+To create packages see the documentation for [laravel-packager](https://github.com/Jeroen-G/laravel-packager)
+
 ### Xdebug
 To activate Xdebug edit file docker/services/php/conf.d/xdebug.ini, remote host must be your local IP address
 ***

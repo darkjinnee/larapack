@@ -21,3 +21,5 @@ yarn-error.log
 
 # Supervisor
 /public/worker.log
+
+/packages
