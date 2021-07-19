@@ -11,8 +11,7 @@
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.40",
-        "laravel/tinker": "^2.5",
-        "myvendor/mypackage": "@dev"
+        "laravel/tinker": "^2.5"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -58,14 +57,5 @@
         "sort-packages": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "repositories": {
-        "myvendor/mypackage": {
-            "type": "path",
-            "url": "/var/www/larapack/packages/MyVendor/MyPackage",
-            "options": {
-                "symlink": true
-            }
-        }
-    }
+    "prefer-stable": true
 }
