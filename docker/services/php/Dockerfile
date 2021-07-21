@@ -3,6 +3,7 @@ FROM php:7.3.9-fpm-alpine
 LABEL maintainer="Dark Jinnee <darkjinnee@gmail.com>"
 
 RUN apk update && apk upgrade && apk add --no-cache \
+    git \
 	bash \
 	curl \
 	gettext \
